@@ -73,7 +73,7 @@ h1 {
   -webkit-filter: blur(4px);
 }
 .panel.active {
-  flex: 5;
+  flex: 7;
   filter: blur(0);
   -webkit-filter: blur(0);
 }
@@ -83,9 +83,7 @@ h2 {
   bottom: 10px;
   left: 10px;
   font-size: 1.5rem;
-  font-weight: 40<div class= "panel" style=
-    "background-image: url(./images/img-6.jpg)" > <h2>Flag of Ukraine</h2>
-    </div>0;
+  font-weight: 400;
   opacity: 0;
 }
 .panel.active h2 {
@@ -97,8 +95,9 @@ h2 {
   .container {
     width: 100vw;
   }
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
+  .panel:nth-of-type(5),
+  .panel:nth-of-type(6),
+  .panel:nth-of-type(7) {
     display: none;
   }
 }
